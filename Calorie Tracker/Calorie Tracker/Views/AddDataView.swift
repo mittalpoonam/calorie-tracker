@@ -199,6 +199,9 @@ extension AddDataView {
                    .padding()
                    .onChange(of: searchText, perform: { value in
                        searchResults = allStrings.filter { $0.lowercased().contains(value.lowercased()) }
+                       if !value.isEmpty {
+                         searchResults.sort { $0.lowercased().hasPrefix(value.lowercased()) && !$1.lowercased().hasPrefix(value.lowercased()) }
+                                 }
                        isListVisible = true
                    })
                    .padding(.horizontal, 5)
@@ -235,6 +238,9 @@ extension AddDataView {
                    .padding()
                    .onChange(of: searchTextForActivity, perform: { value in
                        searchResultsForActivity = allStringsForActivity.filter { $0.lowercased().contains(value.lowercased()) }
+                       if !value.isEmpty {
+                         searchResultsForActivity.sort { $0.lowercased().hasPrefix(value.lowercased()) && !$1.lowercased().hasPrefix(value.lowercased()) }
+                                 }
                        isListVisibleForActivity = true
                    })
                    .padding(.horizontal, 5)
