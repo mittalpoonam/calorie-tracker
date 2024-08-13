@@ -10,10 +10,13 @@ This is the project which tracks the record of calorie consumed by user and calo
 **Screen 3**  -> _View User Details_ :- This will show the details of all the users.
 
 **Screen 4**  -> Add Data For a particular User 
+
               -> Add Food Data : Calorie taken in by the user
+              
               -> Add Activity Data : Activity done by the user (Calories burnt out)
 
 **Screen 5**  -> View Individual status of the particular User 
+
               -> Datewise data of user : net calorie taken in and net calorie burnt out
 
 **Screen 6**  -> View Detailed status of particular user
