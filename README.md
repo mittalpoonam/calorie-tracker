@@ -1,5 +1,6 @@
 # calorie-tracker
 This is the project which tracks the record of calorie consumed by user and calorie burnt out by the user.
+
 **Tech Stack** -> SwiftUI, Swift, XCode, MVVM, URLSession, JSON
 
 **Screen 1**  -> Contains two buttons :- _Add User Details_, _View User Details_
