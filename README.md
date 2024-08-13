@@ -19,6 +19,8 @@ This is the project which tracks the record of calorie consumed by user and calo
 
               -> Datewise data of user : net calorie taken in and net calorie burnt out
 
+              -> Net Calorie formula -> calorieIn - (calorieOut + BMR)
+
 **Screen 6**  -> View Detailed status of particular user
 ![Simulator Screen Shot - iPhone 14 - 2024-08-13 at 17 34 19](https://github.com/user-attachments/assets/16f0917e-7208-4864-b81c-529f321c2f47)
 ![Simulator Screen Shot - iPhone 14 - 2024-08-13 at 17 34 23](https://github.com/user-attachments/assets/e13840ae-cd1f-47cb-97e5-ff02e264b4dd)
